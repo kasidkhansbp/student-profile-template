@@ -1,9 +1,10 @@
 #edit-aboutme-popupmain {
-	position:fixed;
+	position:absolute;
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,0.6);
 	z-index:1001;
+	display: none;
 }
 
 #edit-aboutme {
@@ -27,6 +28,7 @@
 	height: 100%;
 	background: rgba(0,0,0,0.6);
 	z-index:1001;
+	display: none;
 }
 
 #edit-info {
@@ -45,6 +47,7 @@
 	height: 100%;
 	background: rgba(0,0,0,0.6);
 	z-index:1001;
+	display: none;
 }
 
 #edit-project {
